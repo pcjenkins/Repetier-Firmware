@@ -628,9 +628,9 @@ on this endstop.
 #define DISABLE_E false
 
 // Inverting axis direction
-#define INVERT_X_DIR true
-#define INVERT_Y_DIR true
-#define INVERT_Z_DIR false
+#define INVERT_X_DIR false
+#define INVERT_Y_DIR false
+#define INVERT_Z_DIR true
 
 //// ENDSTOP SETTINGS:
 // Sets direction of endstops when homing; 1=MAX, -1=MIN
@@ -665,7 +665,7 @@ on this endstop.
 // When you have several endstops in one circuit you need to disable it after homing by moving a
 // small amount back. This is also the case with H-belt systems.
 #define ENDSTOP_X_BACK_ON_HOME 1
-#define ENDSTOP_Y_BACK_ON_HOME 14
+#define ENDSTOP_Y_BACK_ON_HOME 1
 #define ENDSTOP_Z_BACK_ON_HOME 0
 
 // You can disable endstop checking for print moves. This is needed, if you get sometimes
@@ -1062,7 +1062,7 @@ The following settings override uiconfig.h!
 4 = Foltyn 3DMaster with display attached
 5 = ViKi LCD - Check pin configuration in ui.h for feature controller 5!!! sd card disabled by default!
 */
-#define FEATURE_CONTROLLER 0
+#define FEATURE_CONTROLLER 2
 
 /**
 Select the language to use.
